@@ -5,7 +5,7 @@ from sklearn.metrics import r2_score as R2
 import numpy as np
 
 
-
+#####asasdasdasd
 def test_schema():
     #data normal
     with open("data/json_data.json", "r") as file:    
@@ -42,7 +42,5 @@ def test_score():
     acc = np.abs(R2(y,y_))
     
     assert acc > 0.1
-    
-
-#    
+       
 
