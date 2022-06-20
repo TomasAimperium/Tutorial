@@ -3,6 +3,7 @@ import joblib
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsRegressor
+from sklearn.metrics import r2_score as R2
 # Opening JSON file
 f = open('data/json_data_preprocess.json')
   
